@@ -4,7 +4,7 @@ The **Browser** class provides methods to open a web page, fill in text inputs, 
 
 The **mock.py** file generates unique fake credentials, which are used to fill up the form with dynamic data
 
-The **credentials.py** file keep records of the credentials that's been used recently.
+The **credentials.json** file keep records of the credentials that's been used recently.
 
 The main code initializes the **Browser** class, opens the demo page, waits for the "book demo" button to be clickable, clicks it, logs in, waits for 5 seconds, and closes the browser.
 
