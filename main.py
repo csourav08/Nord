@@ -60,7 +60,7 @@ if __name__ == '__main__':
     firstName, lastName, company, email, phone, jobTitle, country = credentials['firstName'], credentials['lastName'], \
                                                                     credentials['company'], credentials['email'], \
                                                                     credentials['phone'], credentials[
-                                                                        'jobTitle'], "Estonia"
+                                                                        'jobTitle'], credentials['country']
 
     browser = Browser('drivers/chromedriver')
     browser.open_page('https://www.provet.cloud/provet-cloud-request-a-demo')
@@ -72,4 +72,3 @@ if __name__ == '__main__':
     browser.login(firstName, lastName, company, email, phone, jobTitle, country)
     time.sleep(5)
     browser.close_browser()
-
