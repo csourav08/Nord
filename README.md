@@ -11,9 +11,13 @@ The main code initializes the **Browser** class, opens the demo page, waits for 
 Note that there are several time.sleep() calls in the code to pause the execution of the script for a specified number of seconds. These pauses are necessary to allow time for the web page to load and for the browser to render the content before the next action is taken.
 
 
-To run: 
+**To run**: 
 
-Clone the repo
+Clone the repo 
+
+Create a new directory and name it "**drivers**" 
+
+Under "**drivers**" directory copy paste your **chromedriver** executable file
 
 install dependencies from rquirement.txt
 
